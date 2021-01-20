@@ -17,7 +17,7 @@ Download the simulator from `src` folder of the project root directory or altern
 ### Different Components of the Income
 
 1. **Annual Salary:** The current annual in-hand salary based on the ongoing financial year.
-2. **Basic Component + Dearness Allowance (per month):** It is the amount received *per month* in the slab of `Basic Component` and `Dearness Allowance` combined. Please note that the `Dearness Allowance`is not same as `Special Allowance`. The value in this cell is used to calculate contributions to the the Employee Provident Fund (EPF) account.
+2. **Basic Component + Dearness Allowance (per month):** It is the amount received *per month* in the slab of `Basic Component` and `Dearness Allowance` combined. Please note that the `Dearness Allowance` is not same as `Special Allowance`. The value in this cell is used to calculate contributions to the the Employee Provident Fund (EPF) account.
 3. **Date of Joining:** If you have joined the organization in between of a financial year, then you must alter it accordingly - in the format of `DD/MM/YYYY`. Please note, that any of your previous employer's income can be provided in the point 8. By default it corresponds to the start date of current financial year, i.e. `01/04/2020`.
 4. **Joining Bonus:** Applicable if you have joined the organization newly.
 5. **Provident Fund Contribution Rate:** The value in percentage (default is `12`) indicating the contribution rate into employee's EPF account, each by the employee and the employer, as applicable from organization policies.
@@ -31,7 +31,7 @@ Download the simulator from `src` folder of the project root directory or altern
 1. **House Rent Allowance (HRA):** The HRA exemptions in the tax calculations are applied based on the minimum of the following values:
    * Acutal HRA received
    * 50% of `Basic + DA Component`in metro cities and 40% for non-metro cities
-   * The value of the formula:`[Acutal Rent Paid] - [10% of Basic + DA Component]
+   * The value of the formula: `[Acutal Rent Paid] - [10% of Basic + DA Component]`
 2. **Leave Travel Allowance (LTA):** The LTA exemptions are applied based on the income tax policies. Please refer the LTA guidelines published by your organization.
 3. **Profession tax:** The annual amount paid as profession tax, depending upon the city of employment in the financial year. It can found from the annual tax deduction slip shared by the employer.
 4. **Children's Education and Hostel Allowance:** The deductions of children's education allowance are capped at `INR 100` per month and children's hostel allowance are capped at `INR 300` per month. The maximum deductions can be obtained for upto 2 children, by each of the parents.
