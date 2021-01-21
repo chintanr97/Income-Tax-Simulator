@@ -4,7 +4,7 @@ The Income Tax Simulator helps you compare between the Old and New Indian Income
 
 ## Releases
 
-**Current Release:** v0.1.0
+**Current Release:** v1.0.0
 
 **Master Branch for Development:** [master](https://github.com/chintanr97/Income-Tax-Simulator)
 
@@ -20,9 +20,9 @@ Download the simulator from `src` folder of the project root directory or altern
 2. **Basic Component + Dearness Allowance (per month):** It is the amount received *per month* in the slab of `Basic Component` and `Dearness Allowance` combined. Please note that the `Dearness Allowance` is not same as `Special Allowance`. The value in this cell is used to calculate contributions to the the Employee Provident Fund (EPF) account.
 3. **Date of Joining:** If you have joined the organization in between of a financial year, then you must alter it accordingly - in the format of `DD/MM/YYYY`. Please note, that any of your previous employer's income can be provided in the point 8. By default it corresponds to the start date of current financial year, i.e. `01/04/2020`.
 4. **Joining Bonus:** Applicable if you have joined the organization newly.
-5. **Provident Fund Contribution Rate:** The value in percentage (default is `12`) indicating the contribution rate into employee's EPF account, each by the employee and the employer, as applicable from organization policies.
+5. **Provident Fund Contribution Rate:** The value in percentage (default is `12%`) indicating the contribution rate into employee's EPF account, each by the employee and the employer, as applicable from organization policies.
 6. **Employer's contribution within Annual Salary (Yes/No):** Mostly the employer's contribution to employee's EPF account is considered within the CTC associated in the offer letter and decuted from the `Special Allowances` bracket of the `Annual Salary`. Check your monthly pay slip for further details.
-7. **Voluntary Provident Fund Contribution Rate:** The value in percentage, indicating employee's voluntary contribution to the EPF account. The input is considered to be capped at `100 %`over and above the mandatory PF contribution rate as added in point 5.
+7. **Voluntary Provident Fund Contribution Rate:** The value in percentage, indicating employee's voluntary contribution to the EPF account. The input is considered to be capped at `100%` over and above the mandatory PF contribution rate as added in point 5.
 8. **Previous Employer's Income:** The amount earned from any previous positions within or outside the organization in the current finanacial, i.e. `FY 2020-2021`.
 9. **Any other Income:** This includes any interest earned on savings bank account or recurring deposits, any taxable reimbursements, etc.
 
@@ -47,7 +47,12 @@ Download the simulator from `src` folder of the project root directory or altern
 14. **Section 80TTB:** Interest earned on various deposits can be added for deductions in this slab, provided you are a `Senior Citizen` based on the income tax policies. The maximum deduction allowed is capped at `INR 50,000`.
 15. **Section 80U:** Deductions applicable for the treatment of self disability. The claims under this section can only be added when no claims are made under Section 80DD. In both of these sections, the claims can be made as much maximum amount (providing a valid disability certificate), whereas deductions under Section 80DDB are capped minimum of either the maximum cap or the actual expense incurred.
 
-These benefits or tax deductions are not applicable in the New Income Tax Regime. However, the difference in the income tax rates between the 2 regimes allow taxpayers to adjust between thier investments while staying in old regimes with higher tax rates or moving to new regime without any tax deductions and incurring less tax rates. These benefits leverage out when the surcharge on the gross taxable income increases as per the new tax regime compared to old one.
+These benefits or tax deductions are not applicable in the New Income Tax Regime. However, the difference in the income tax rates between the 2 regimes allow taxpayers to adjust between their investments while staying in old regimes with higher tax rates or moving to new regime without any tax deductions and incurring less tax rates.
+
+### Some additional tax Benefits
+
+1. **Loss From House Property:** These deductions include the amount as applicable because of the *loss of income* (as defined under IT policies) due to payment of interest on the house loan taken on the property owned. The deductions under this section are *not applicable* in the New Tax Regime. However, any loss due to payment of interest on house loan can be adjusted under income due to the house property (e.g. a let-out house property). Although, this clause cannot be used as a deduction under *loss of income due to house property*, in the New Income Tax Regime.
+2. **Section 10 Deductions:** Section 10 deductions include the benefits under various clauses applicable under the Old Income Tax Regime. In the New Income Tax Regime an individual can only claim deductions under clause 10(14) of the Income Tax Rules. 
 
 ## Policy of Usage
 
