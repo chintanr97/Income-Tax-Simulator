@@ -4,7 +4,7 @@ The Income Tax Simulator helps you compare between the Old and New Indian Income
 
 ## Releases
 
-**Current Release:** v1.0.0
+**Current Release:** v1.1.0
 
 **Master Branch for Development:** [master](https://github.com/chintanr97/Income-Tax-Simulator)
 
